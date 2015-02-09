@@ -14,6 +14,8 @@
 		F82E2A801A85B8240099C6EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82E2A7F1A85B8240099C6EF /* Images.xcassets */; };
 		F82E2A831A85B8240099C6EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82E2A811A85B8240099C6EF /* LaunchScreen.xib */; };
 		F82E2A8F1A85B8250099C6EF /* Prototype_BenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E2A8E1A85B8250099C6EF /* Prototype_BenTests.m */; };
+		F82E2A9A1A884FB50099C6EF /* ObjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E2A991A884FB50099C6EF /* ObjectDetailViewController.m */; };
+		F82E2A9D1A8850460099C6EF /* ObjectSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E2A9C1A8850460099C6EF /* ObjectSelectionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		F82E2A881A85B8250099C6EF /* Prototype-BenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototype-BenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82E2A8D1A85B8250099C6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82E2A8E1A85B8250099C6EF /* Prototype_BenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype_BenTests.m; sourceTree = "<group>"; };
+		F82E2A981A884FB50099C6EF /* ObjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectDetailViewController.h; sourceTree = "<group>"; };
+		F82E2A991A884FB50099C6EF /* ObjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectDetailViewController.m; sourceTree = "<group>"; };
+		F82E2A9B1A8850460099C6EF /* ObjectSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectSelectionTableViewController.h; sourceTree = "<group>"; };
+		F82E2A9C1A8850460099C6EF /* ObjectSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectSelectionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				F82E2A791A85B8240099C6EF /* ViewController.h */,
 				F82E2A7A1A85B8240099C6EF /* ViewController.m */,
 				F82E2A7C1A85B8240099C6EF /* Main.storyboard */,
+				F82E2A9B1A8850460099C6EF /* ObjectSelectionTableViewController.h */,
+				F82E2A9C1A8850460099C6EF /* ObjectSelectionTableViewController.m */,
+				F82E2A981A884FB50099C6EF /* ObjectDetailViewController.h */,
+				F82E2A991A884FB50099C6EF /* ObjectDetailViewController.m */,
 				F82E2A7F1A85B8240099C6EF /* Images.xcassets */,
 				F82E2A811A85B8240099C6EF /* LaunchScreen.xib */,
 				F82E2A721A85B8240099C6EF /* Supporting Files */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82E2A9A1A884FB50099C6EF /* ObjectDetailViewController.m in Sources */,
 				F82E2A7B1A85B8240099C6EF /* ViewController.m in Sources */,
+				F82E2A9D1A8850460099C6EF /* ObjectSelectionTableViewController.m in Sources */,
 				F82E2A781A85B8240099C6EF /* AppDelegate.m in Sources */,
 				F82E2A751A85B8240099C6EF /* main.m in Sources */,
 			);
@@ -348,6 +360,7 @@
 				INFOPLIST_FILE = "Prototype-Ben/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,6 +371,7 @@
 				INFOPLIST_FILE = "Prototype-Ben/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
