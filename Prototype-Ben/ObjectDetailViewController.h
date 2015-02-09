@@ -10,4 +10,6 @@
 
 @interface ObjectDetailViewController : UIViewController
 
+- (IBAction)unwindToSelection:(UIStoryboardSegue*)seque;
+
 @end
