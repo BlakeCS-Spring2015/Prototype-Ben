@@ -29,17 +29,17 @@
     
     Object *object1 = [[Object alloc] init];
     object1.title = @"Light Bulb";
-    object1.explanation = @"Illuminates";
+    object1.explanation = @"It illuminates";
     object1.selector = @"Selected by Thomas Edison";
 
     Object *object2 = [[Object alloc] init];
     object2.title = @"Telephone";
-    object2.explanation = @"Rings";
+    object2.explanation = @"It rings";
     object2.selector = @"Selected by Alexander Graham Bell";
     
     Object *object3 = [[Object alloc] init];
     object3.title = @"iPhone";
-    object3.explanation = @"Beeps, among other things";
+    object3.explanation = @"It beeps, among other things";
     object3.selector = @"Selected by Steve Jobs";
     
     NSArray *allObjects = @[object1, object2, object3];
