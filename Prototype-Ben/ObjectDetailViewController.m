@@ -9,6 +9,9 @@
 #import "ObjectDetailViewController.h"
 
 @interface ObjectDetailViewController ()
+@property (weak, nonatomic) IBOutlet UINavigationItem *objectTitle;
+@property (weak, nonatomic) IBOutlet UILabel *objectExplanation;
+@property (weak, nonatomic) IBOutlet UILabel *objectSelector;
 
 @end
 

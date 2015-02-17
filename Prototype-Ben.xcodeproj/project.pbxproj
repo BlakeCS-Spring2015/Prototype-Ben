@@ -16,6 +16,7 @@
 		F82E2A8F1A85B8250099C6EF /* Prototype_BenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E2A8E1A85B8250099C6EF /* Prototype_BenTests.m */; };
 		F82E2A9A1A884FB50099C6EF /* ObjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E2A991A884FB50099C6EF /* ObjectDetailViewController.m */; };
 		F82E2A9D1A8850460099C6EF /* ObjectSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E2A9C1A8850460099C6EF /* ObjectSelectionTableViewController.m */; };
+		F83813111A93C5E90012B72B /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = F83813101A93C5E90012B72B /* Object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		F82E2A991A884FB50099C6EF /* ObjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectDetailViewController.m; sourceTree = "<group>"; };
 		F82E2A9B1A8850460099C6EF /* ObjectSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectSelectionTableViewController.h; sourceTree = "<group>"; };
 		F82E2A9C1A8850460099C6EF /* ObjectSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectSelectionTableViewController.m; sourceTree = "<group>"; };
+		F838130F1A93C5E90012B72B /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		F83813101A93C5E90012B72B /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				F82E2A7C1A85B8240099C6EF /* Main.storyboard */,
 				F82E2A9B1A8850460099C6EF /* ObjectSelectionTableViewController.h */,
 				F82E2A9C1A8850460099C6EF /* ObjectSelectionTableViewController.m */,
+				F838130F1A93C5E90012B72B /* Object.h */,
+				F83813101A93C5E90012B72B /* Object.m */,
 				F82E2A981A884FB50099C6EF /* ObjectDetailViewController.h */,
 				F82E2A991A884FB50099C6EF /* ObjectDetailViewController.m */,
 				F82E2A7F1A85B8240099C6EF /* Images.xcassets */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83813111A93C5E90012B72B /* Object.m in Sources */,
 				F82E2A9A1A884FB50099C6EF /* ObjectDetailViewController.m in Sources */,
 				F82E2A7B1A85B8240099C6EF /* ViewController.m in Sources */,
 				F82E2A9D1A8850460099C6EF /* ObjectSelectionTableViewController.m in Sources */,
@@ -428,6 +434,7 @@
 				F82E2A941A85B8250099C6EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F82E2A951A85B8250099C6EF /* Build configuration list for PBXNativeTarget "Prototype-BenTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				F82E2A971A85B8250099C6EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

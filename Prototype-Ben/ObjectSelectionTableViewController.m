@@ -7,6 +7,7 @@
 //
 
 #import "ObjectSelectionTableViewController.h"
+#import "Object.h"
 
 @interface ObjectSelectionTableViewController ()
 
@@ -22,6 +23,12 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    Object *object1 = [[Object alloc] init];
+    object1.name = @"Light Bulb";
+    object1.explanation = @"Illuminated";
+    object1.selector = @"Selected by Thomas Edison";
+
 }
 
 - (void)didReceiveMemoryWarning {
