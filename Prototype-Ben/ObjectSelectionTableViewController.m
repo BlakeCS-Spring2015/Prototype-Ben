@@ -7,6 +7,7 @@
 //
 
 #import "ObjectSelectionTableViewController.h"
+#import "ObjectDetailViewController.h"
 #import "Object.h"
 
 @interface ObjectSelectionTableViewController ()
@@ -51,8 +52,22 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    NSLog(@"Preparing for segue");
     
+    if ([segue.identifier isEqualToString:@"object1Segue"]) {
+        ObjectDetailViewController *deetsController = (ObjectDetailViewController *)segue.destinationViewController;
+        Object *chosenObject = self.objects[0];
+        deetsController.object = chosenObject;
+    }
+    if ([segue.identifier isEqualToString:@"object2Segue"]) {
+        ObjectDetailViewController *deetsController = (ObjectDetailViewController *)segue.destinationViewController;
+        Object *chosenObject = self.objects[1];
+        deetsController.object = chosenObject;
+    }
+    if ([segue.identifier isEqualToString:@"object2Segue"]) {
+        ObjectDetailViewController *deetsController = (ObjectDetailViewController *)segue.destinationViewController;
+        Object *chosenObject = self.objects[2];
+        deetsController.object = chosenObject;
+    }
 }
 
 //#pragma mark - Table view data source

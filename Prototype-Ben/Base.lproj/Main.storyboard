@@ -63,7 +63,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="CZv-dv-gHA" kind="show" id="3KM-Qm-eVS"/>
+                                            <segue destination="CZv-dv-gHA" kind="show" identifier="object1Segue" id="3KM-Qm-eVS"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1ck-bx-9vu" style="IBUITableViewCellStyleDefault" id="BlH-2u-vgS">
@@ -80,7 +80,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="CZv-dv-gHA" kind="show" id="nkP-m1-WJc"/>
+                                            <segue destination="CZv-dv-gHA" kind="show" identifier="object2Segue" id="nkP-m1-WJc"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="eLv-Xv-4l2" style="IBUITableViewCellStyleDefault" id="LOx-cw-gmI">
@@ -97,7 +97,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="CZv-dv-gHA" kind="show" id="Zuw-6O-JaL"/>
+                                            <segue destination="CZv-dv-gHA" kind="show" identifier="object3Segue" id="Zuw-6O-JaL"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -176,6 +176,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nkP-m1-WJc"/>
+        <segue reference="Zuw-6O-JaL"/>
     </inferredMetricsTieBreakers>
 </document>
