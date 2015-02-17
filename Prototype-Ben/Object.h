@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Object : NSObject
-@property (strong, nonatomic) NSString *name;
+
+@property (strong, nonatomic) NSString *title;
 @property (strong, nonatomic) NSString *explanation;
 @property (strong, nonatomic) NSString *selector;
 

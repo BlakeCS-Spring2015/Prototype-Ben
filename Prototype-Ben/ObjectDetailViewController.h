@@ -10,7 +10,7 @@
 #import "Object.h"
 
 @interface ObjectDetailViewController : UIViewController
-//@property (strong, nonatomic)  *object;
+@property (strong, nonatomic) Object *object;
 
 - (IBAction)unwindToSelection:(UIStoryboardSegue*)seque;
 

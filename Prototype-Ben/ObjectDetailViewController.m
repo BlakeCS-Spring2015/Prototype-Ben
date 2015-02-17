@@ -24,6 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.objectTitle setTitle:(self.object.title)];
+    [self.objectExplanation setText:(self.object.explanation)];
+    [self.objectSelector setText:(self.object.selector)];
 }
 
 - (void)didReceiveMemoryWarning {
