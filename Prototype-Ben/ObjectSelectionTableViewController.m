@@ -63,7 +63,7 @@
         Object *chosenObject = self.objects[1];
         deetsController.object = chosenObject;
     }
-    if ([segue.identifier isEqualToString:@"object2Segue"]) {
+    if ([segue.identifier isEqualToString:@"object3Segue"]) {
         ObjectDetailViewController *deetsController = (ObjectDetailViewController *)segue.destinationViewController;
         Object *chosenObject = self.objects[2];
         deetsController.object = chosenObject;
